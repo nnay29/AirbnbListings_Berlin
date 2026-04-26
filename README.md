@@ -2,7 +2,7 @@
    
    <img width="386" height="152" alt="image" src="https://github.com/user-attachments/assets/b1efd790-fce7-4e88-ba25-bc66e986d6ad" />
 
-3. remove errors 'id'
+3. Remove errors 'id'.
 4. Replace Empty values in column 'name' with 'No Name'.
 5. Remove empty 'host_id'
 6. 'latitude' et 'lingitude' en decimal number.
@@ -16,16 +16,16 @@
   * Cliquer sur la **nouvelle** colonne 'review_score_ratings'.
 Transform > Rounding > Rounding... > entrer le chiffre 0 Decimal places dans la boite de Dialogue. L'idee ici est d'arrondir la moyenne calculee a un chiffre apres la virgule.
 
-9. Add custom column sur 'beds'. 
+9. Add custom column sur 'beds'. Remplacer par moyenne 
    ```M
-   if [MaColonne] = null then Number.Round(List.Average(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne].
+   if [MaColonne] = null then Number.Round(List.Mode(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne].
 
-10. remove Errors et Empty sur 'zipcode'.
+10. Remove Errors et Empty sur 'zipcode'.
 
 11. 'instant_bookable': Replace 't' with 'True' and 'f' with 'False'. Change column type to True/False.
 Same for 'host_identity_verified' & 'host_is_superhost'.
 
-12. remove empty  'host_identity_verified' & 'host_is_superhost'.
+12. Remove empty  'host_identity_verified' & 'host_is_superhost'.
 
 13. Replace Empty in 'space' with 'No description'
 
