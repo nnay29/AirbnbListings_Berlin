@@ -8,14 +8,17 @@
 6. 'latitude' et 'lingitude' en decimal number.
 7. Remove empty 'last_review'. Vous remarquez que les Empty de 'reviews_per_month' disparaissent aussi.
 8. S'assurer d'avoir 'reviews_per_month','latitude','longitude' en Decimal.
-9. Add custom column sur 'review_score_ratings'. 
-if [MaColonne] = null then Number.Round(List.Average(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne]
+9. Add custom column sur 'review_score_ratings'.
+    ```M
+    if [MaColonne] = null then Number.Round(List.Average(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne]
+   
 
-- Cliquer sur la **nouvelle** colonne 'review_score_ratings'.
+  * Cliquer sur la **nouvelle** colonne 'review_score_ratings'.
 Transform > Rounding > Rounding... > entrer le chiffre 0 Decimal places dans la boite de Dialogue. L'idee ici est d'arrondir la moyenne calculee a un chiffre apres la virgule.
 
 9. Add custom column sur 'beds'. 
-if [MaColonne] = null then Number.Round(List.Average(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne].
+   ```M
+   if [MaColonne] = null then Number.Round(List.Average(NomDeLetapePrecedente[MaColonne]), 0) else [MaColonne].
 
 10. remove Errors et Empty sur 'zipcode'.
 
