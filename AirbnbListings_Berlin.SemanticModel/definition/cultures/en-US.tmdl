@@ -1,0 +1,3717 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "entity_3_airbnb_listings__berlin__copy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "3- airbnb listings - berlin - copy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "3- airbnb listing - berlin - copy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "3 airbnb listings berlin copy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin copy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin duplicate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin facsimile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin photocopy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin fake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin counterfeit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin imitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        },
+			        {
+			          "3 airbnb listing berlin model": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.504
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.host_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "host_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "host credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "congregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "multitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "horde": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "army": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "crowd": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "swarm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.neighbourhood": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "neighbourhood"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "neighbourhood": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.latitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "latitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latitude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leeway": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freedom": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "autonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "liberty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opportunity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "room": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.longitude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "longitude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "longitude": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.room_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "room_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "room type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "room_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "room category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "room variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "room brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "room class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bill": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "outlay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "penalty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.minimum_night": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "minimum_nights"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "minimum night": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "minimum_nights": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "night": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "evening": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "minimum darkness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "minimum nightfall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "darkness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "nightfall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "minimum dark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum night-time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum nighttime": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "minimum dusk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "dark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.number_of_reviews": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "number_of_reviews"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of reviews": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of review": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "number_of_reviews": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "quantity of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "amount of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "count of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "no of review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "last_review"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "last_review": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "review": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "final review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "closing review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "concluding review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "finishing review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "former review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latest review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "latter review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "past review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "remaining review": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "VariationSource": "last_review",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "VariationSource": "last_review",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last review yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "review yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "end review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest review year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "VariationSource": "last_review",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last review qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "review qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "end review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest review quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "VariationSource": "last_review",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "last review mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "review mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "end review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest review month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.last_review.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "VariationSource": "last_review",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "last review day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "end review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "final review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "closing review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "concluding review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "finishing review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "former review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latest review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "latter review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "past review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "remaining review day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.review_per_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "reviews_per_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review per month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "reviews_per_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "review": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "review per mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "appraisal per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "evaluation per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "assessment per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "examination per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "analysis per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "criticism per month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "appraisal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.calculated_host_listings_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "calculated_host_listings_count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calculated host listings count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "calculated host listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "calculated_host_listings_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "listings count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "host listings count": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "host listing count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "calculated host listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        },
+			        {
+			          "host listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "listing amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.availability_365": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "availability_365"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "availability 365": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "availability_365": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.cancellation_policy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "cancellation_policy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cancellation policy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cancellation_policy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "policy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cancellation strategy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cancellation procedure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cancellation dogma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "strategy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "procedure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dogma": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cancellation rule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cancellation plan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "cancellation program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "rule": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.instant_bookable": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "instant_bookable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "instant bookable": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instant_bookable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.bed": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "beds"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "bed": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "divan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cot": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "bedstead": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "couch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cradle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "crib": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stratum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "seabed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "riverbed": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.review_scores_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "review_scores_rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "review scores rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "review score rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "review_scores_rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "scores rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "score rating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "review score assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "review score evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "score evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "review score score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "review score grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "review score ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "review score mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "review_scores_ratings": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.accommodates": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "accommodates"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "accommodates": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.zipcode": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "zipcode"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "zipcode": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.host_identity_verified": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "host_identity_verified"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host identity verified": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_identity_verified": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "host individuality verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "host uniqueness verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "host distinctiveness verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "host personality verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "host self verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "host character verified": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.host_is_superhost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "host_is_superhost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "host is superhost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "host_is_superhost": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.space": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "space"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "space": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "galaxy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "universe": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "cosmos": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy.listing_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy",
+			          "ConceptualProperty": "listing_url"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "listing url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "listing_url": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "url": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "listing website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "listing site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "listing web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        },
+			        {
+			          "web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.571
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "entity_3_airbnb_listings__berlin__copy_is_named_id": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.id": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Name": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_3_airbnb_listings__berlin__copies"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_ids"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_is_named_name": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.name": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Name": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "names_are_names_IDs_of_3_airbnb_listings__berlin__copies"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_names"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_is_expensive": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.price": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "price_indicates_how_expensive_3_airbnb_listings__berlin__copies_are"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_prices"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_is_instant_bookable": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.instant_bookable": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.instant_bookable"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "entity_3_airbnb_listings__berlin__copy.instant_bookable"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Adjectives": [
+			              {
+			                "instant bookable": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "instant-bookable": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_3_airbnb_listings__berlin__copies_are_instant_bookable_3_airbnb_listings__berlin__copies"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_is_host_identity_verified": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.host_identity_verified": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.host_identity_verified"
+			          }
+			        }
+			      },
+			      "Conditions": [
+			        {
+			          "Target": {
+			            "Role": "entity_3_airbnb_listings__berlin__copy.host_identity_verified"
+			          },
+			          "Operator": "Equals",
+			          "Value": {
+			            "Boolean": [
+			              true
+			            ]
+			          }
+			        }
+			      ],
+			      "Phrasings": [
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Adjectives": [
+			              {
+			                "host identity verified": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "host-identity-verified": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "some_3_airbnb_listings__berlin__copies_are_host_identity_verified_3_airbnb_listings__berlin__copies"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_host_id": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.host_id": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.host_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.host_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_host_ids"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_neighbourhood": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.neighbourhood": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.neighbourhood"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.neighbourhood"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_neighbourhoods"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_latitude": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.latitude": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.latitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.latitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_latitudes"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_longitude": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.longitude": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.longitude"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.longitude"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_longitudes"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_room_type": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.room_type": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.room_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.room_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_room_types"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_minimum_night": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.minimum_night": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.minimum_night"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.minimum_night"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_minimum_nights"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_number_of_reviews": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.number_of_reviews": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.number_of_reviews"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.number_of_reviews"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_number_of_reviews"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_last_review": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_last_reviews"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_review_per_month": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.review_per_month": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.review_per_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.review_per_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_review_per_month"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_calculated_host_listings_count": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.calculated_host_listings_count": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.calculated_host_listings_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.calculated_host_listings_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_calculated_host_listings_counts"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_availability_365": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.availability_365": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.availability_365"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.availability_365"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_availability_365"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_cancellation_policy": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.cancellation_policy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.cancellation_policy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.cancellation_policy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_cancellation_policies"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_instant_bookable": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.instant_bookable": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.instant_bookable"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.instant_bookable"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_instant_bookable"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_bed": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.bed": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.bed"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.bed"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_beds"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_review_scores_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.review_scores_rating": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.review_scores_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.review_scores_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_review_scores_rating"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_accommodates": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.accommodates": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.accommodates"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.accommodates"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_accommodates"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_zipcode": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.zipcode": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.zipcode"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.zipcode"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_zipcodes"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_host_identity_verified": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.host_identity_verified": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.host_identity_verified"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.host_identity_verified"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_host_identity_verified"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_host_is_superhost": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.host_is_superhost": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.host_is_superhost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.host_is_superhost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_host_is_superhosts"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_space": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.space": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.space"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.space"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_spaces"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_has_listing_url": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.listing_url": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.listing_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.listing_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing3_airbnb_listings__berlin__copies_have_listing_urls"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_last_review_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy.last_review": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_reviews_have_last_review_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_last_review_date_hierarchy_has_entity_3_airbnb_listings__berlin__copy_last_review_year": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review.year": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_review_date_hierarchies_have_last_review_years"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_last_review_date_hierarchy_has_entity_3_airbnb_listings__berlin__copy_last_review_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review.quarter": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_review_date_hierarchies_have_last_review_quarters"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_last_review_date_hierarchy_has_entity_3_airbnb_listings__berlin__copy_last_review_month": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review.month": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_review_date_hierarchies_have_last_review_months"
+			        }
+			      ]
+			    },
+			    "entity_3_airbnb_listings__berlin__copy_last_review_date_hierarchy_has_entity_3_airbnb_listings__berlin__copy_last_review_day": {
+			      "Binding": {
+			        "ConceptualEntity": "3- Airbnb Listings - Berlin - Copy"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			          }
+			        },
+			        "entity_3_airbnb_listings__berlin__copy.last_review.day": {
+			          "Target": {
+			            "Entity": "entity_3_airbnb_listings__berlin__copy.last_review.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "entity_3_airbnb_listings__berlin__copy.last_review.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "last_review_date_hierarchies_have_last_review_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

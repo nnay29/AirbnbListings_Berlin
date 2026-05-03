@@ -1,0 +1,5 @@
+relationship 7d86838d-7146-4058-a4bc-71bf2931e20a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: '3- Airbnb Listings - Berlin - Copy'.last_review
+	toColumn: LocalDateTable_df26ab79-6dde-495b-9cb1-d2da0e884d7e.Date
+

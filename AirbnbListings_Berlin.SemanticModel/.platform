@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "AirbnbListings_Berlin"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "bbc4db61-ca02-4d23-8a27-584764cb1e6d"
+  }
+}

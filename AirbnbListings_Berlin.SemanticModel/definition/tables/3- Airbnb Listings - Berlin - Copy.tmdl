@@ -1,0 +1,294 @@
+table '3- Airbnb Listings - Berlin - Copy'
+	lineageTag: f695a95a-b127-4a04-9b26-583f6d4966e5
+
+	measure 'Total Logements' = FORMAT(DISTINCTCOUNT('3- Airbnb Listings - Berlin - Copy'[id]), "0")
+		lineageTag: d01e9336-0453-44f5-b600-22d4da0efff2
+
+	measure 'Avis Totaux' = FORMAT(SUM('3- Airbnb Listings - Berlin - Copy'[number_of_reviews]), "0")
+		lineageTag: da706933-6d9b-4c95-8c7e-2ea0026f6d24
+
+	measure 'Note Qualité' = ROUND(AVERAGE('3- Airbnb Listings - Berlin - Copy'[review_scores_rating]),0) & "/100"
+		lineageTag: 738bf185-6eb5-4124-9760-8612b189ae50
+
+	measure 'Prix Moyen' = FORMAT(AVERAGE('3- Airbnb Listings - Berlin - Copy'[price]), "0€")
+		lineageTag: 2bbe1ae0-2a3d-42b4-b67e-dcbd1b7e9114
+
+	measure 'Total Superhôtes' =
+			FORMAT(
+			    CALCULATE(
+			        COUNT('3- Airbnb Listings - Berlin - Copy'[id]),
+			        '3- Airbnb Listings - Berlin - Copy'[host_is_superhost]
+			    ),
+			    "0"
+			)
+		lineageTag: 8df5796f-dbe8-4a04-955a-2760f69466be
+
+	measure Disponibilité =
+			FORMAT(
+			    ROUND(AVERAGE('3- Airbnb Listings - Berlin - Copy'[availability_365]), 0),
+			    "0"
+			)
+		lineageTag: 92523e93-b37a-4efa-96dd-27045b59f4bb
+
+	measure 'Disponibilité Annuelle' =
+			
+			IF(
+			    ISBLANK(AVERAGE('3- Airbnb Listings - Berlin - Copy'[availability_365])),
+			    "N/A",
+			    FORMAT(ROUND(AVERAGE('3- Airbnb Listings - Berlin - Copy'[availability_365]), 0), "0") & " jours"
+			)
+		lineageTag: 4e82b53b-1650-47f8-b5ea-dd1e3428b36e
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: b2c8dd33-6ac2-485f-9245-1aaa7afbedc7
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		lineageTag: c3d6c075-af89-4f55-806c-483d857471eb
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column host_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 70dd16c4-4d0c-41f4-8f7a-5a755bc3dbd8
+		summarizeBy: sum
+		sourceColumn: host_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column neighbourhood
+		dataType: string
+		lineageTag: a90a6d81-cc97-42fc-8f15-f7c846a8ae6d
+		summarizeBy: none
+		sourceColumn: neighbourhood
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: d9a49e6d-5e2f-45c9-8b28-18bd4f975083
+		summarizeBy: sum
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: a00cfa34-45fa-4927-af75-74587e0fa586
+		summarizeBy: sum
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column room_type
+		dataType: string
+		lineageTag: f1ba943a-41ab-42ee-8637-14e1674bc13b
+		summarizeBy: none
+		sourceColumn: room_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: int64
+		formatString: 0
+		lineageTag: a6ac08e4-87b9-4b20-a8a5-c70d569a4f66
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+	column minimum_nights
+		dataType: int64
+		formatString: 0
+		lineageTag: 0fee0a4b-c26e-4af0-a7bc-899376b43cab
+		summarizeBy: sum
+		sourceColumn: minimum_nights
+
+		annotation SummarizationSetBy = Automatic
+
+	column number_of_reviews
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f7ac5f7-873a-4ef0-b3be-79f172f1667a
+		summarizeBy: sum
+		sourceColumn: number_of_reviews
+
+		annotation SummarizationSetBy = Automatic
+
+	column last_review
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 763c5db0-ad32-4bd4-92b3-f3855515df0a
+		summarizeBy: none
+		sourceColumn: last_review
+
+		variation Variation
+			isDefault
+			relationship: 7d86838d-7146-4058-a4bc-71bf2931e20a
+			defaultHierarchy: LocalDateTable_df26ab79-6dde-495b-9cb1-d2da0e884d7e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column reviews_per_month
+		dataType: double
+		lineageTag: 85823b93-cdf0-40ca-a647-47fddcc032a5
+		summarizeBy: sum
+		sourceColumn: reviews_per_month
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column calculated_host_listings_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 56babe41-869e-4966-85e9-6ccb3e3abe1b
+		summarizeBy: sum
+		sourceColumn: calculated_host_listings_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column availability_365
+		dataType: int64
+		formatString: 0
+		lineageTag: a596bb21-8f9f-4ac9-b8d2-c7b83bc1fa0a
+		summarizeBy: sum
+		sourceColumn: availability_365
+
+		annotation SummarizationSetBy = Automatic
+
+	column cancellation_policy
+		dataType: string
+		lineageTag: 2e19b70d-7bfd-4af7-94da-ab0e66fa9bfc
+		summarizeBy: none
+		sourceColumn: cancellation_policy
+
+		annotation SummarizationSetBy = Automatic
+
+	column instant_bookable
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: fb71491b-39ba-4e13-86fe-f9a9eb7cfbc2
+		summarizeBy: none
+		sourceColumn: instant_bookable
+
+		annotation SummarizationSetBy = Automatic
+
+	column beds
+		dataType: int64
+		formatString: 0
+		lineageTag: c106f267-1bbb-417c-8e4f-c3c60c9cd1c3
+		summarizeBy: sum
+		sourceColumn: beds
+
+		annotation SummarizationSetBy = Automatic
+
+	column review_scores_rating
+		dataType: double
+		lineageTag: 6b9ae4cd-4e92-400c-8fb8-cf58f2ea58d1
+		summarizeBy: sum
+		sourceColumn: review_scores_rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column accommodates
+		dataType: int64
+		formatString: 0
+		lineageTag: 65bb81b6-6c69-4638-918d-ad063d9094f8
+		summarizeBy: sum
+		sourceColumn: accommodates
+
+		annotation SummarizationSetBy = Automatic
+
+	column zipcode
+		dataType: int64
+		formatString: 0
+		lineageTag: 10ff75ac-3700-48e0-9ed6-5a8eccc0bebc
+		summarizeBy: sum
+		sourceColumn: zipcode
+
+		annotation SummarizationSetBy = Automatic
+
+	column host_identity_verified
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 9181b4d4-ab79-4395-be68-6b008a542653
+		summarizeBy: none
+		sourceColumn: host_identity_verified
+
+		annotation SummarizationSetBy = Automatic
+
+	column host_is_superhost
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: bb0d210f-d336-4758-b2b8-f8be353b6b24
+		summarizeBy: none
+		sourceColumn: host_is_superhost
+
+		annotation SummarizationSetBy = Automatic
+
+	column space
+		dataType: string
+		lineageTag: ede08ac3-4169-442b-9a9b-f310f4137ab4
+		summarizeBy: none
+		sourceColumn: space
+
+		annotation SummarizationSetBy = Automatic
+
+	column listing_url
+		dataType: string
+		lineageTag: 3a678143-1efe-4818-9c75-0123be40b20f
+		summarizeBy: none
+		sourceColumn: listing_url
+
+		annotation SummarizationSetBy = Automatic
+
+	partition '3- Airbnb Listings - Berlin - Copy' = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\Users\Yann\Downloads\Wazap\3- Airbnb Listings - Berlin - Copy.csv"),[Delimiter=",", Columns=24, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"id", Int64.Type}, {"name", type text}, {"host_id", Int64.Type}, {"neighbourhood", type text}, {"latitude", type number}, {"longitude", type number}, {"room_type", type text}, {"price", Int64.Type}, {"minimum_nights", Int64.Type}, {"number_of_reviews", Int64.Type}, {"last_review", type date}, {"reviews_per_month", type number}, {"calculated_host_listings_count", Int64.Type}, {"availability_365", Int64.Type}, {"cancellation_policy", type text}, {"instant_bookable", type text}, {"review_scores_rating", Int64.Type}, {"beds", Int64.Type}, {"accommodates", Int64.Type}, {"zipcode", Int64.Type}, {"host_identity_verified", type text}, {"host_is_superhost", type text}, {"space", type text}, {"listing_url", type text}}),
+				    #"Removed Errors" = Table.RemoveRowsWithErrors(#"Changed Type", {"id"}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Removed Errors","","No Name",Replacer.ReplaceValue,{"name"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Replaced Value", each [host_id] <> null and [host_id] <> ""),
+				    #"Filtered Rows1" = Table.SelectRows(#"Filtered Rows", each [last_review] <> null and [last_review] <> ""),
+				    #"Added Custom" = Table.AddColumn(#"Filtered Rows1", "review_scores_rating2", each if [review_scores_rating] = null then List.Average(#"Filtered Rows1"[review_scores_rating]) else [review_scores_rating]),
+				    #"Added Custom1" = Table.AddColumn(#"Added Custom", "beds2", each if [beds] = null then List.Average(#"Added Custom"[beds]) else [beds]),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Added Custom1",{"id", "name", "host_id", "neighbourhood", "latitude", "longitude", "room_type", "price", "minimum_nights", "number_of_reviews", "last_review", "reviews_per_month", "calculated_host_listings_count", "availability_365", "cancellation_policy", "instant_bookable", "review_scores_rating", "beds", "beds2", "review_scores_rating2", "accommodates", "zipcode", "host_identity_verified", "host_is_superhost", "space", "listing_url"}),
+				    #"Rounded Off" = Table.TransformColumns(#"Reordered Columns",{{"review_scores_rating2", each Number.Round(_, 0), type number}}),
+				    #"Removed Errors1" = Table.RemoveRowsWithErrors(#"Rounded Off", {"zipcode"}),
+				    #"Filtered Rows2" = Table.SelectRows(#"Removed Errors1", each [zipcode] <> null and [zipcode] <> ""),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Filtered Rows2","t","True",Replacer.ReplaceText,{"instant_bookable", "host_identity_verified", "host_is_superhost"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","f","False",Replacer.ReplaceText,{"instant_bookable", "host_identity_verified", "host_is_superhost"}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Replaced Value2",{{"instant_bookable", type logical}, {"host_identity_verified", type logical}, {"host_is_superhost", type logical}}),
+				    #"Filtered Rows3" = Table.SelectRows(#"Changed Type1", each [host_identity_verified] <> null and [host_identity_verified] <> ""),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Filtered Rows3","","No Description",Replacer.ReplaceValue,{"space"}),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Replaced Value3",{{"beds2", Int64.Type}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type2",{"review_scores_rating", "beds"}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Removed Columns",{{"beds2", "beds"}, {"review_scores_rating2", "review_scores_rating"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
